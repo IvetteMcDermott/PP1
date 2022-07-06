@@ -85,6 +85,7 @@ body header img {
 #about_us img   {
                 padding: 10px 10px;
                 border-radius: 3%;
+                width: 50%;
                 }
 
 footer {
@@ -97,6 +98,7 @@ footer {
 #faqs_contact {
                 margin: 0 auto;
                 padding-top: 15px;
+                position: relative;
                 } 
 
 #faqs_contact li{
@@ -104,6 +106,7 @@ footer {
                 margin: auto;                
                 display: inline-block;
                 float: right;
+                text-align: center;
                 letter-spacing: 2px;
                 padding-right: 20px;
                 color: brown;
@@ -118,6 +121,8 @@ footer {
 #media          {
                 padding-left: 20px;
                 padding-top: 5px;
+                position: relative;
+                color:blue;
 }
                 
 #media li       {
@@ -125,7 +130,8 @@ footer {
                 font-size: 150%;
                 margin: 0 auto;                    
                 display: inline-block;
-                float: left;
+                float: none;
+                text-align: center;
                 letter-spacing: 2px;
                 padding-right: 20px;
                 }
@@ -136,4 +142,80 @@ footer {
                 border-bottom: 2px solid brown;
                 color:brown;
                 }
+
+@media screen and (max-width: 900px;)  {
+                footer {
+                        height:300px;
+                        margin:0 auto;
+                        align:center;
+                        }
+                #media li      {
+                                text-align: center;
+                }
+                #form_container, #form_container2, #form_container3 {
+                        float:none;
+                }
+}
         
+/*contact page*/
+
+.contact_form{
+                height:580px;
+                background-color:rgb(248, 248, 232);
+
+}
+input, label, p    {
+                font-size: 120%;
+                padding:0 auto;
+                margin-bottom: 5px;
+                color:brown;
+}
+
+p {text-align:center;}
+
+
+input {
+
+        size: 10px;
+        margin:0 100px 0 0 ;
+        border-radius: 10px;
+       /* box-shadow: 15px rgb(131, 49, 49);*/
+        }
+
+#form_container {
+                margin: 0 auto;
+                padding: 60px 0px 20px 120px; 
+                font-size: 120%;
+                width:33%;
+                height: 450px;
+                border: 1px solid brown;
+                float:left;
+                text-align: left;
+                                               
+                }
+
+#inquiry {
+                width:75%;
+                height: 150px;                                        
+                }
+
+#form_container2{
+                margin: 0 auto;
+                padding: 160px 0px 20px 120px;  
+                font-size: 120%;
+                width:33%;
+                height: 300px;
+                border: 1px solid brown;
+                text-align: center;
+                float:center;
+                }
+
+#form_container3{
+                margin: 0 auto;
+                padding: 150px 20px 20px 20px; 
+                font-size: 120%;
+                width:33%;
+                height: 150px;
+                border: 1px solid brown;
+                float: right;
+                }
