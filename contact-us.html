@@ -21,31 +21,36 @@
         </div>
         <hr>
     </header>
+
+<section class="page_settings">
     
     <form class="contact_form">
+
     <div id="form_container">
         <label for="name">Name
         <input id="name" name="fname" type="text" required></label>
         <label for="phone">Phone
-        <input id="phone" name="cphone" type="number" required></label>
+        <input id="phone" name="cphone" type="number" placeholder="12-345-67-89"required></label>
         <label for="mail">Email
         <input id="mail" name="email" type="email" required></label>
-        <label for="inquiry" >Inquiry
-        <input id="inquiry" name="request_info" type="text" required></label>
+        <label for="inquiry">Inquiry
+        <input id="inquiry" name="request_info" type="text" size="250" required></label>
     </div>
-
+    
     <div id="form_container2">        
-    <p>I prefer to be contact by </p>
-        <label for="prefer_phone">Phone</label>
-        <input id="contact_preference" name="prefer_contact" type="checkbox" >
-        <label for="prefer_email">Email</label>
-        <input id="contact_preference" name="prefer_contact" type="checkbox" >
-        <hr>
-        <a href="thanks_message.html">
-        <input id="submit" type="submit" method="Post"></a>
+        <p>I prefer to be contact by </p>
+            <label for="prefer_phone">Phone</label>
+            <input id="contact_preference" name="prefer_contact" type="checkbox" >
+            <label for="prefer_email">Email</label>
+            <input id="contact_preference" name="prefer_contact" type="checkbox" >
     </div>
-     
+        <div id="submit">
+            <a href="thanks_message.html"><input type="submit" method="Post"/></a>  
+        </div>
+    </div>
+    
     </form>
+    </section>
 
     <footer>
         <ul id="faqs_contact">
