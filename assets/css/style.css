@@ -11,7 +11,7 @@ body{
 
 }
 body header img {
-            height: 250px;
+            height: 8em;
             width: 90%; 
             margin-top: auto;
             margin-left: auto;
@@ -19,7 +19,7 @@ body header img {
             display: block;
             padding-top: 2%;
         }
-
+        
 #header_section {
                 align-items: center;
                 background-color: rgb(245, 223, 245);
@@ -42,8 +42,8 @@ body header img {
 #menu li    {
             margin:auto;
             display: inline-block;
-            font-size: 20px;
-            letter-spacing: 3px;
+            font-size: 1.5em;
+            letter-spacing: 5px;
             padding: 12px 10px 10px 30px;
 }
             
@@ -55,6 +55,7 @@ body header img {
 #menu li a:hover {
                 border-bottom: 2px solid brown;
                 color:brown;
+                font-size: 120%;
                 }
 
 /*stiling top_button*/
@@ -63,36 +64,39 @@ body header img {
                 text-decoration: none;
                 margin: 0 auto;
                 bottom: 8%;
-                right: 5%;
-                left: 75%;
-                width: 7%;
-                height: 7%;
+                
+                left: 80%;
+                width: 8%;
+                height: 5%;
                 min-width: 30px;
                 min-height: 10px;
-                font-weight: 120;
+                
                 border:none;
                 font-size: 1em;
                 float: right;
                 position: fixed;
-                background-color: rgba(214, 108, 200, 0.2);
+                background-color: rgba(214, 108, 200, 0.6);
                 border-radius: 10px;
                 color:brown;
+
 }
 
 #top_button a { 
         color: brown;
-        text-decoration-color: rgb(165, 3, 116);
+        font-size: 1.4em;
+        font-weight: 500;
+        text-decoration-color: none;
 }
 
 
 #top_button a:hover{
-                font-size: 120%;
+                font-size: 180%;
 }
 /*styling footer*/
 
 footer {
         width: 100%;
-        height:8%;
+        height: 8%;
         margin:0 auto;
         position: sticky;
         bottom: 0;
@@ -169,11 +173,10 @@ footer {
 #about_us    {
                 margin: 0;
                 padding: 0;
-                width:90%;
+                width:85%;
                 padding: 1em 1em 1em 1em;
-                text-align:center;
+                text-align: center;
                 position:relative;
-                background-color:rgb(248, 248, 232);
                 overflow: hidden;
 
 }
@@ -193,7 +196,7 @@ footer {
                 padding-bottom: 2%;
                 font-family: hind;
                 color:brown;
-                text-align: center;
+                text-align: justify;
                 }
         
 /*#intro{
@@ -299,7 +302,7 @@ input {
         margin:0 3% 0 0 ;
         border-radius: 10px;
         margin: 3%;
-        background-color: rgb(253, 234, 250, .8);
+        background-color: rgba(247, 206, 241, 0.7);
         border: none;
         }
 
@@ -324,7 +327,7 @@ input {
         height: 3em;
         margin-left: 3%;
         border-radius: 10px;   
-        background-color: rgb(253, 234, 250, .8);
+        background-color: rgba(247, 206, 241, 0.7);
         border: none;                                             
         }
 
@@ -457,16 +460,42 @@ input {
 
 /*Styling FAQs page*/
 
-#questions{
-        width: 100%;
+.questions{
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+        width: 80%;
         height: 80%;
-        min-height: 40em;
         padding: 2em 2em 2em 2em;
         align-self: center;
-        min-height: 50em;
-        background-color:rgb(248, 248, 232);
+        min-height: 60em;
+        
         color:brown;
         }
+
+.questions h1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15%;
+        }
+
+.questions h2 {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                margin-top: 4%;
+                margin-bottom: 2%;
+                font-weight: 140;
+                text-align: center;
+                }
+
+.questions p {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                text-align:center;
+                }
 
 /*Styling thanks message*/
 
@@ -489,7 +518,7 @@ input {
         padding-bottom: 8%;
         }
 
-        #thx_message p{
+#thx_message p{
                 padding-top: 1%;
                 padding-bottom: 8%;
                 }
@@ -502,19 +531,34 @@ input {
 
 /*media settings*/
 
+/*----------------------------------- 900 -----------------------------*/
+
 @media screen and (min-width: 900px)  {
-                
+                #header_section{
+                        width: 100%;
+                        height: 18em;
+                }
+                #name_pic{
+                        width: 100%;
+                        height: 14em;
+                        padding: 0;
+                }
+                #menu {
+                height: 6em;    
+                }        
                 footer {
+                        width: 100%;
                         height:8%;
                         margin:0 auto;
                         position: sticky;
                         bottom: 0;
                         }
-                #media li      {
-                                text-align: center;
+                #media li {
+                        text-align: center;
                 }
                 #about_us    {
-                        width: 96%;
+                        width: 80%;
+                        margin-left: 10%;
                 }
                 #form_container, #form_container2, #form_container3 {
                         float:none;
@@ -529,39 +573,30 @@ input {
                         height:45%;
                         margin-left: 50%;
                 }
- /*here start*/       
-
-#form_box{ 
-        width: 80%;
-        align-content: flex-start;
-}
-
-        #form_container {
-                margin: 0 auto;
-                padding: 0; 
-                font-size: 120%;
-                width:100%;
-                height: 55%;
-                display: flex;
-                
-                flex-grow: 1;
-                flex-direction: column;
-                
-                text-align: left;                                               
+                #form_box{ 
+                        width: 80%;
+                        align-content: flex-start;
                 }
-
-        #inquiry {
-                width:75%;
-                height: 9em;                                        
+                #form_container {
+                        margin: 0 auto;
+                        padding: 0; 
+                        font-size: 120%;
+                        width:100%;
+                        height: 55%;
+                        display: flex;
+                        flex-grow: 1;
+                        flex-direction: column;
+                        text-align: left;                                               
                 }
-
-        #form_container2{
-                margin: 0 auto;
-                padding: 0;  
-                font-size: 120%;
-                /*float:center;*/
+                #inquiry {
+                        width:75%;
+                        height: 9em;                                        
                 }
-
+                #form_container2{
+                        margin: 0 auto;
+                        padding: 0;  
+                        font-size: 120%;
+                }
                 #form_container2{
                         width: 40%;
                         height: 18%;
@@ -572,141 +607,141 @@ input {
                         margin-left: 20%;
                         position:relative;
                         }
-                
-               #sub_button     {
-                        margin-left: 22%;
-                        
+                #sub_button     {
+                        margin: 0;
+                        padding: 0;
+                        margin-left: 25%;
                 }
-                
                 #map    {
                         height: 20em;
                         margin-top: 10%;
                 }
-              
-/*here end*/                
-
                 /*Styling thanks message*/
-
-        #thx_message{
-                padding: 0;
-                margin: 0;
-                width: 100%;
-                height: 60%;
+                #thx_message{
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        height: 60%;
         
-                vertical-align: center;
-                align-self: center;
-                min-height: 35em;
-                background-color:rgb(248, 248, 232);
-                color:brown;
+                        vertical-align: center;
+                        align-self: center;
+                        min-height: 35em;
+                        background-color:rgb(248, 248, 232);
+                        color:brown;
                 }
-
-        #thx_message h1{
-                padding-top: 5%;
-                padding-bottom: 8%;
-
+                #thx_message h1{
+                        padding-top: 5%;
+                        padding-bottom: 8%;
                 }
-        #thx_message p{
+                #thx_message p{
                         padding-top: 1%;
                         padding-bottom: 8%;
-                        }
-
-        #rabbit { 
-                padding:10%;
-                font-size: 6em;
                 }
-
+                #rabbit { 
+                        padding:10%;
+                        font-size: 6em;
+                }
         }
 
 
-
-
+/*--------------------------------------- 1200 ---------------------------------------*/
 
 @media screen and (min-width: 1200px)  {
                 footer {
                         bottom: 0;
                         margin:0 auto;
                         height:8%;
-                        position: sticky;
-                
+                        position: sticky;   
+                }
+                #header_section{
+                                width: 100%;
+                                height: 18em;
+                }
+                #name_pic{
+                                width: 100%;
+                                height: 14em;
+                                padding: 0;
+                }
+                #menu {
+                        height: 6em;
                 }
                 #media li      {
                                 text-align: center;
                 }
                 #about_us    {
-                        width: 97%;
+                        width: 90%;
+                        margin-left: 5%;
+                        font-size: 1.5em;
+                }
+                #intro {
+                        width: 80%;
+                        margin:0;
+                        margin-left: 10%;
+                }
+                #about_us img    {
+                        width: 40%;
+                        height: 30%;
+                        padding-top: 3%;
                 }
                 #form_container, #form_container2, #form_container3 {
                         float:none;
                 }
-        
-/*copy here*/
-#form_box{ 
-        width: 80%;       
-        align-content: flex-start;
-}
-
-        #form_container {
-                margin: 0 auto;
-                padding: 0; 
-                font-size: 120%;
-                width:100%;
-                height: 40%;
-                display: flex;
+                #form_box{ 
+                        width: 80%;       
+                        align-content: flex-start;
+                        min-height: 42em;
+                }
+                #form_container {
+                        margin: 0 auto;
+                        padding: 0; 
+                        font-size: 120%;
+                        width:100%;
+                        height: 40%;
+                        display: flex;
                 
-                flex-grow: 1;
-                flex-direction: column;
-                text-align: left;                                               
+                        flex-grow: 1;
+                        flex-direction: column;
+                        text-align: left;                                               
                 }
-
-        #inquiry {
-                width:75%;
-                height: 9em;                                        
+                #inquiry {
+                        width:75%;
+                        height: 9em;                                        
                 }
-
-        #form_container2{
-                margin: 0;
-                padding: 0;  
-                font-size: 120%;
-                width:100%;
-                height: 20%;
-                text-align: center;
-                padding-top: 5%;
-                /*float:center;*/
-                }
-
                 #form_container2{
-                       
-                       
+                        margin: 0;
+                        padding: 0;  
+                        font-size: 120%;
+                        width:100%;
+                        height: 5%;
+                        text-align: center;
+                        padding-top: 5%;
                         min-width:15em;
                         min-height: 5em;
-                        
-                       
-                  
-                
                         position:relative;
-                        }
-                
-               #sub_button     {
-                        margin: 0 auto;
                 }
-                
+                #sub_button     {
+                        margin: 0 auto;
+                        height: 6em;
+                }
                 #map    {
                         height: 25em;
-                        margin-top: 10%;
-
+                        margin-top: 2%;
                 }
-
+                .h3 {
+                        padding:0;
+                        padding-top: 3%;
+                        padding-bottom: 3%;
+                        font-size: 2rem;
+                }
                 .each_item_parent       {
                         display:flex;
                         flex-wrap:nowrap;
-                       
                 }
                 .img_set {
                         width: 40%;
                         height:40%;
                         margin-left: 10%;
                 }
-
                 .img_text{
                         width: 60%;
                         height:60%;
@@ -715,10 +750,29 @@ input {
                         align-items: center;
                         padding-top: 8%;
                 }
-
                 #thx_message    {
                         width: 100%;
-                        height: 60rem;
-
+                        height: 40rem;
                 }
+                #thx_message h1 {
+                        padding-bottom: 5%;
+                }
+                #thx_message p {
+                        margin: 0;
+                        padding: 0;
+                }
+                #top_button {
+                        margin-right: 1%;
+                }
+                .questions {
+                        padding: 0;
+                        margin: 0;
+                        margin-left: 10%;
+                }
+                .questions h1 {
+                        padding: 0;
+                        margin: 0;
+                        margin-top: 3%;
+                }
+
         }
