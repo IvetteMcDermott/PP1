@@ -178,12 +178,14 @@ footer {
 
 .body_about_us{
         align-content: center;
+        
 }
 
 #about_us    {
                 margin: 0;
                 padding: 0;
                 width:90%;
+                
                 padding: 1em 1em 1em 1em;
                 align-content: center;
                 position:relative;
@@ -798,9 +800,7 @@ input {
                 #media li      {
                                 text-align: center;
                 }
-            /*--    .body_about_us {
-                                height: 90em;
-                }-----*/
+         
                 #about_us    {
                         width: 90%;
                         margin-left: 5%;
