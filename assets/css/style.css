@@ -809,7 +809,7 @@ input {
                 }
                 #intro1  {
                 
-                        height: 20%;
+                        height: 25%;
                 }
                 #intro2{
                         align-content: center;
@@ -933,3 +933,23 @@ input {
                         }
                 
         }
+@media screen and (min-width: 1500px){
+
+        #about_us    {
+                width: 90%;
+                margin-left: 5%;
+                font-size: 1.5em;
+                height: 95em;
+        }
+        #intro1  {
+        
+                height: 20%;
+        }
+        #intro2{
+                align-content: center;
+                height: 15%;
+                
+        }
+
+}
+        
