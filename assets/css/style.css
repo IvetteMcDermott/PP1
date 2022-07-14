@@ -76,7 +76,7 @@ body header img {
                 height: 8%;
                 min-width: 30px;
                 min-height: 10px;
-                
+                float: right;
                 border:none;
                 font-size: 1em;
                 float: right;
@@ -176,12 +176,16 @@ footer {
 
 /*styling the about_us*/
 
+.body_about_us{
+        align-content: center;
+}
+
 #about_us    {
                 margin: 0;
                 padding: 0;
-                width:85%;
+                width:90%;
                 padding: 1em 1em 1em 1em;
-                text-align: center;
+                align-content: center;
                 position:relative;
                 overflow: hidden;
 }
@@ -195,25 +199,30 @@ footer {
         color:brown;
         text-align: center;
         }
-
-#about_us p     {
-                padding-top: 2%;
-                padding-bottom: 2%;
-                font-family: hind;
-                color:brown;
-                text-align: center;
-                }
         
-/*#intro{
+#intro1, #intro2 {
+        margin: 0;
+        padding: 0;
+        font-family: hind;
+        color:brown;
+        text-align: center;
         width:100%;
         padding:5px 5px 5px 5px;
-        justify-content: center;
-        }*/
+        position: relative;
+        }
+
+#intro2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
 
 #about_us img   {
                 padding: 10px 10px;
                 border-radius: 3%;
                 width: 50%;
+                position: relative;
+                margin-left: 25%;
                 }
 
 /*styling gallery*/
@@ -577,10 +586,36 @@ input {
                 position: sticky;
                 bottom: 0;
         }
-
+        .body_about_us{
+                align-content: center;
+                display: flex;
+        }
         #about_us    {
                 width: 80%;
-                margin-left: 8%;
+                height: 90em;
+                
+                flex: 1;
+        }
+        #intro1, #intro2 {
+                font-family: hind;
+                color:brown;
+                text-align: center;
+                width:100%;
+                
+                margin-top: 2%;
+                }
+        
+        #intro1  {
+                
+                height: 20%;
+        }
+        #intro2{
+                align-content: center;
+                height: 15%;
+                
+        }
+        #about_us_pic {
+                width: 30%;
         }
         #sub_button     {
                 margin: 0;
@@ -607,7 +642,6 @@ input {
         .questions {
                 margin-left: 7%;
         }
-
 }
 
 /*----------------------------------- 900 -----------------------------*/
@@ -635,11 +669,20 @@ input {
                 #media li {
                         text-align: center;
                 }
+                .body_about_us {
+                        display: flex;
+                }
+                /*----about body content ----*/
                 #about_us    {
                         width: 80%;
-                        margin-left: 10%;
-                        height: 60em;
+                        flex: 1;
                 }
+                #intro1, #intro2 {
+                width:100%;
+                padding:5px 5px 5px 5px;
+                justify-content: center;
+                }
+
                 #form_container, #form_container2 {
                         float:none;
                 }
@@ -755,17 +798,23 @@ input {
                 #media li      {
                                 text-align: center;
                 }
+            /*--    .body_about_us {
+                                height: 90em;
+                }-----*/
                 #about_us    {
                         width: 90%;
                         margin-left: 5%;
                         font-size: 1.5em;
                         height: 65em;
                 }
-                #intro {
-                        width: 80%;
-                        margin:0;
-                        margin-left: 10%;
-                        padding-bottom: 5%;
+                #intro1  {
+                
+                        height: 20%;
+                }
+                #intro2{
+                        align-content: center;
+                        height: 15%;
+                        
                 }
          /*---       #about_us img    {
                         width: 21em;
