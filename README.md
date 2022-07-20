@@ -1,7 +1,7 @@
-[<img src="assets/images/logo.png" width="150"/>](assets/images/logo.png) 
+![Logo>] (assets/images/logo.png) 
 
 
-[<img src="assets/images/responsive.jpg" width="400"/>] (assets/css/images/responsive.jpg)
+![Responsive>] (assets/css/images/responsive.jpg) 
 
 # Overview
 
