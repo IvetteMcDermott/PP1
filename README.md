@@ -1,7 +1,7 @@
-![Logo>] (assets/images/logo.png) 
+![Logo](assets/images/logo.png) 
 
 
-![Responsive>] (assets/css/images/responsive.jpg) 
+![Responsive](assets/images/responsive.jpg) 
 
 # Overview
 
