@@ -62,21 +62,23 @@ body{
 #top_button   {
                 text-decoration: none;
                 border: 1px solid brown; 
-                background-color: rgba(214, 108, 200, 0.3);
-                border-style:ridge;
-                margin: 0 auto;
-                        
-                width: 4em;
-                height: 4em;
-                float: right;
-                border:none;
-                font-size: 3em;
-                margin-right: 10%;
-                margin-bottom: 20%;
-                position: fixed;
+                background-color: rgba(214, 108, 200, 0.5);
                 color: brown;
-                font-size: 1.4em;
+                width: 6%;
+                height: 4%;
+                max-width: 46px;
+                max-height: 30px;
+                border-style:ridge;
+                font-size: 1.4em;                     
+                margin: auto;
+                position: fixed;
+                bottom: 11%;
+                right: 5%;
+                padding-top: auto;
                 border-radius: 10px;
+                min-width: 30px;
+                text-align: center;
+                
 }
 
 #top_button i:hover{
@@ -116,7 +118,24 @@ footer {
                 border-bottom: 2px solid brown;
                 font-weight: 800;
                 transition: transform .5s;
-                }
+        }
+
+#face  {
+        width: 20%;
+        margin-left: 10%;
+        }
+                
+#insta  {
+        width: 20%;
+        margin-left: 0;
+        text-align: start;
+        }
+                
+#faqs {
+        width: 60%;
+        margin-right: 5%;
+        text-align: end;
+        }
 
 .h1    {
         padding-top: 2%;
@@ -210,10 +229,6 @@ footer {
 
 /*styling gallery*/
 
-.gallery        {
-        background-color:rgb(248, 248, 232);
-}
-
 .gallery h2 {
         padding-top: 5%;
 }
@@ -231,6 +246,7 @@ footer {
 .each_item_parent       {
                 display:inline-flex;
                 flex-wrap: wrap;
+                justify-content: center;
 }
 
 .img_set   {
@@ -253,14 +269,19 @@ img     {
                 height: 40%;
                 min-width:250px;
                 min-height: 210px;
+                margin: 0;
+                margin-left: auto;
+                margin-right: auto;
+                align-self: center;
 }
-
-.img_text h2    {
-                text-align:center;
+.img_text h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
 }
-
 .img_text p {
-                text-align: center;
+        text-align: center;
+        padding-top: 5%;
 }
        
 /*styling contact page*/
@@ -514,26 +535,26 @@ input {
 #thx_message{
         padding: 0;
         margin: 0;
-        width: 100%;
-        height: 60%;
-        
-        
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 80%; 
         vertical-align: center;
         align-self: center;
-        min-height: 45em;
+        min-height: 50em;
         background-color:rgb(248, 248, 232);
         color:brown;
         }
 
 #thx_message h1{
-        padding-top: 5%;
+        padding-top: 20%;
         padding-bottom: 8%;
         }
 
 #thx_message p{
                 padding-top: 1%;
-                padding-bottom: 8%;
-                }
+                padding-bottom: 6%;
+        }
 
 #rabbit { 
         padding:10%;
@@ -604,11 +625,7 @@ input {
                 width: 100%;
                 height: 50em;
         }
-        #top_button     {
-                width: 12%;
-                height: 6%;
-                min-width: 30px;
-        }
+  
         .questions h1 {
                 padding: 0;
                 margin: 0;
@@ -645,7 +662,7 @@ input {
                 .body_about_us {
                         display: flex;
                 }
-                /*----about body content ----*/
+                /*----about_us body content ----*/
                 #about_us    {
                         width: 80%;
                         flex: 1;
@@ -717,7 +734,9 @@ input {
                 #thx_message{
                         padding: 0;
                         margin: 0;
-                        width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 80%;
                         height: 50em;
         
                         vertical-align: center;
@@ -726,13 +745,10 @@ input {
                         background-color:rgb(248, 248, 232);
                         color:brown;
                 }
-                #thx_message h1{
-                        padding-top: 5%;
-                        padding-bottom: 8%;
-                }
+                
                 #thx_message p{
                         padding-top: 1%;
-                        padding-bottom: 8%;
+                        padding-bottom: 6%;
                 }
                 #rabbit { 
                         padding:10%;
@@ -749,6 +765,7 @@ input {
 /*--------------------------------------- 1200 ---------------------------------------*/
 
 @media screen and (min-width: 1200px)  {
+ 
                 footer {
                         bottom: 0;
                         margin:0 auto;
@@ -775,6 +792,11 @@ input {
                         font-size: 1.5em;
                         height: 65em;
                 }
+                #top_button   {
+                        bottom: 10%;
+                        right: 10%;
+                }
+
                 #intro1  {
                         height: 25%;
                         width: 80%;
@@ -832,10 +854,6 @@ input {
                         min-height: 5em;
                         position:relative;
                 }
-                /*#sub_button     {
-                        margin: 0 auto;
-                        height: 6em;
-                }*/
                 #map    {
                         height: 25em;
                         margin-top: 2%;
@@ -847,11 +865,15 @@ input {
                         font-size: 2rem;
                 }
                 .gallery {
+                        width: 96%;
+                        margin-left: auto;
+                        margin-right: auto;
                         min-height: 100em;
                 }
                 .gallery_items {
                         display: flex;
                         flex-wrap: wrap;
+                        justify-content: center;
                 }
                 .each_item_parent       {
                         flex: 1;
@@ -859,32 +881,42 @@ input {
                         margin:2% 2% 2% 2%;
                 }
                 .img_set {
-                        width: 250px;
-                        height: 250px;
+                        width: 220px;
+                        height: 220px;
                         margin: 0;
+                        margin-left: auto;
+                        margin-right: auto;
                         border-radius: 10px;
+                        display:flex;
+                }
+                .img_set img {
+                        margin: 0;
+                        margin-left: auto;
+                        margin-right: auto;
                 }
                 .img_text{
                         width: 250px;
                         height:250px;
-                        margin-left: 1%;
                         font-size: 1em;
                         align-items: center;
+                        margin: 0;
+                        margin-left: auto;
+                        margin-right: auto;
                 }
+                
                 #thx_message    {
-                        width: 100%;
-                        height: 40rem;
+                        margin: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 70%;
+                        height: 60em;
                 }
-                #thx_message h1 {
-                        padding-bottom: 5%;
-                }
+               
                 #thx_message p {
                         margin: 0;
                         padding: 0;
                 }
-                #top_button {
-                        margin-right: 1%;
-                }
+
                 .questions {
                         padding: 0;
                         margin: 0;
@@ -910,7 +942,6 @@ input {
 
         #about_us    {
                 width: 90%;
-                
                 font-size: 1.5em;
                 height: 105em;
         }
@@ -933,3 +964,15 @@ input {
 
 }
         
+@media screen and (min-width: 2500px){
+        body {
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+        }
+
+        #top_button   {
+                bottom: 10%;
+                right: 15%;
+        }
+}
