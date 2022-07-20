@@ -1,1023 +1,1147 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Hind&display=swap');
 
-*{
-        margin: 0 auto;
-        padding: 0;
-        font-family: hind;
+
+/* General settings - mobile first */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: hind;
 }
 
-body{
-        background-color:rgb(248, 248, 232);
+body {
+    background-color: rgb(248, 248, 232);
 
 }
-        
+
 #header_section {
-                align-items: center;
-                background-color: rgb(245, 223, 245);
-                width: 100%;
-                height: 26em;
-}
-#name_pic{
-        width: 100%;      
-        padding: 0;
-        align-items: center;
-        background-color: rgb(245, 223, 245);
-        height: 14em;
+    align-items: center;
+    background-color: rgb(245, 223, 245);
+    width: 100%;
+    height: 26em;
 }
 
-
-/*styling for nav menu*/
-
-#menu   {
-        width:100%;
-        text-align: center;
+#name_pic {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    background-color: rgb(245, 223, 245);
+    height: 14em;
 }
-                
+
+.h1 {
+    padding-top: 2%;
+    font-family: "Dancing Script";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 300%;
+    color: brown;
+    text-align: center;
+    align-self: center;
+}
+
+.h2 {
+    font-family: "Dancing Script";
+    font-weight: 200;
+    font-style: italic;
+    font-size: 200%;
+    color: brown;
+    text-align: center;
+}
+
+.h3 {
+    font-family: "Dancing Script";
+    font-weight: 150;
+    font-style: italic;
+    font-size: 130%;
+    color: brown;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+/*styling for nav menu in header*/
+
+#menu {
+    width: 100%;
+    text-align: center;
+}
+
 #menu ul {
-         list-style-type: none;
-         margin: auto;
-        }
-
-#menu li    {
-            margin:auto;
-            display: inline-block;
-            font-size: 1.5em;
-            letter-spacing: 5px;
-            padding: 12px 10px 10px 30px;
+    list-style-type: none;
+    margin: auto;
 }
-            
+
+#menu li {
+    margin: auto;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    padding: 12px 10px 10px 30px;
+}
+
 #menu li a {
-        text-decoration: none;
-        color:brown;
-        }
-        
+    text-decoration: none;
+    color: brown;
+}
+
 #menu li a:hover {
-                border-bottom: 2px solid brown;
-                font-weight: 800;
-                transition: transform .5s;
-                }
+    border-bottom: 2px solid brown;
+    font-weight: 800;
+    transition: transform .5s;
+}
 
 /*stiling top_button*/
 
-#top_button   {
-                text-decoration: none;
-                border: 1px solid brown; 
-                background-color: rgba(214, 108, 200, 0.5);
-                color: brown;
-                width: 6%;
-                height: 4%;
-                max-width: 46px;
-                max-height: 30px;
-                border-style:ridge;
-                font-size: 1.4em;                     
-                margin: auto;
-                position: fixed;
-                bottom: 11%;
-                right: 5%;
-                padding-top: auto;
-                border-radius: 10px;
-                min-width: 30px;
-                text-align: center;
-                
+#top_button {
+    text-decoration: none;
+    border: 1px solid brown;
+    background-color: rgba(214, 108, 200, 0.5);
+    color: brown;
+    width: 6%;
+    height: 4%;
+    max-width: 46px;
+    max-height: 30px;
+    border-style: ridge;
+    font-size: 1.4em;
+    margin: auto;
+    position: fixed;
+    bottom: 11%;
+    right: 5%;
+    padding-top: auto;
+    border-radius: 10px;
+    min-width: 30px;
+    text-align: center;
 }
 
-#top_button i:hover{
-                font-size: 140%;
-                font-weight: 900;
+#top_button i:hover {
+    font-size: 140%;
+    font-weight: 900;
 }
 
 /*styling footer*/
 
 footer {
-        width: 100%;
-        height: 8%;
-        margin:0 auto;
-        position: sticky;
-        bottom: 0;
-        background-color: rgb(245, 223, 245);
-        }
-      
-.media          {
-                padding-top: 5px;
-                display: flex; 
-                justify-content: space-around;
+    width: 100%;
+    height: 8%;
+    margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(245, 223, 245);
 }
-                
-.media  li       {
-                list-style-type: none;
-                justify-content: stretch;
-                font-size: 180%;
-                margin: 0 auto;                          
-                }
 
-.media  li a      {
-                color: brown;
+/* styling nav in footer */
+
+.media {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media li {
+    list-style-type: none;
+    justify-content: stretch;
+    font-size: 180%;
+    margin: 0 auto;
+}
+
+.media li a {
+    color: brown;
 }
 
 .media li i:hover {
-                border-bottom: 2px solid brown;
-                font-weight: 800;
-                transition: transform .5s;
-        }
-
-#face  {
-        width: 20%;
-        margin-left: 10%;
-        }
-                
-#insta  {
-        width: 20%;
-        margin-left: 0;
-        text-align: start;
-        }
-                
-#faqs {
-        width: 60%;
-        margin-right: 5%;
-        text-align: end;
-        }
-
-#faqs_title {
-        padding-top: 8%;
+    border-bottom: 2px solid brown;
+    font-weight: 800;
+    transition: transform .5s;
 }
 
-.h1    {
-        padding-top: 2%;
-        font-family: "Dancing Script";
-        font-weight: 300;
-        font-style: italic;
-        font-size: 300%;
-        color:brown;
-        text-align: center;
-        }
+#face {
+    width: 20%;
+    margin-left: 10%;
+}
 
-.h2    {
-        font-family: "Dancing Script";
-        font-weight: 200;
-        font-style: italic;
-        font-size: 200%;
-        color:brown;
-        text-align: center;
-        }
+#insta {
+    width: 20%;
+    margin-left: 0;
+    text-align: start;
+}
 
-.h3    {
-        font-family: "Dancing Script";
-        font-weight: 150;
-        font-style: italic;
-        font-size: 130%;
-        color:brown;
-        text-align: center;
-        padding-top: 6%;
-        padding-bottom: 10%;
-        }
-        
+#faqs {
+    width: 60%;
+    margin-right: 5%;
+    text-align: end;
+}
+
+#faqs_title {
+    padding-top: 8%;
+}
 
 /*general styling for middle section*/
 
-.background_settings    {
-                        background-color:rgb(248, 248, 232);
-                        
-                }
+.background_settings {
+    background-color: rgb(248, 248, 232);
 
-/*styling the about_us*/
-
-.body_about_us{
-        align-content: center;
-        
 }
 
-#about_us    {
-                margin: 0;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 0;
-                width:90%;                
-                padding: 1em 1em 1em 1em;
-                align-content: center;
-                position:relative;
-                overflow: hidden;
+/*styling the index - about_us*/
+
+.body_about_us {
+    align-content: center;
 }
 
-#about_us h1    {
-        padding-top: 2%;
-        font-family: "Dancing Script";
-        font-weight: 200;
-        font-style: italic;
-        font-size: 300%;
-        color:brown;
-        text-align: center;
-        }
-        
-#intro1, #intro2 {
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        font-family: hind;
-        color:brown;
-        text-align: center;
-        width:100%;
-        padding:5px 5px 5px 5px;
-        position: relative;
-        }
+#about_us {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 90%;
+    padding: 1em 1em 1em 1em;
+    align-content: center;
+    position: relative;
+    overflow: hidden;
+}
 
+#about_us h1 {
+    padding-top: 2%;
+    font-family: "Dancing Script";
+    font-weight: 200;
+    font-style: italic;
+    font-size: 300%;
+    color: brown;
+    text-align: center;
+}
 
+#intro1,
+#intro2 {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    font-family: hind;
+    color: brown;
+    text-align: center;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
 
-#about_us img   {
-                padding: 10px 10px;
-                border-radius: 3%;
-                width: 50%;
-                position: relative;
-                margin-left: 25%;
-                }
+#about_us img {
+    padding: 10px 10px;
+    border-radius: 3%;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
 
 /*styling gallery*/
 
 .gallery h2 {
-        padding-top: 5%;
+    padding-top: 5%;
 }
+
 .title h1 {
-                font-family: "Dancing Script";
-                color: brown;
-                font-size: 300%;
-                text-align: center;
-                font-weight: 200;
-                margin-bottom: 5%;
-                padding-top: 5%;
-
+    font-family: "Dancing Script";
+    color: brown;
+    font-size: 300%;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 5%;
+    padding-top: 5%;
 }
 
-.each_item_parent       {
-                display:inline-flex;
-                flex-wrap: wrap;
-                justify-content: center;
+.each_item_parent {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.img_set   {
-                width: 40%;
-                height:40%;
-                min-width:300px;
-                min-height: 260px;
+.img_set {
+    width: 40%;
+    height: 40%;
+    min-width: 300px;
+    min-height: 260px;
 }
 
-img     { 
-        padding-top: 4%;  
-        padding-bottom: 4%;            
-        max-width: 100%;
-        max-height: 100%;
+img {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.img_text       {
-                padding: 3%;                               
-                width: 40%;
-                height: 40%;
-                min-width:250px;
-                min-height: 210px;
-                margin: 0;
-                margin-left: auto;
-                margin-right: auto;
-                align-self: center;
+.img_text {
+    padding: 3%;
+    width: 40%;
+    height: 40%;
+    min-width: 250px;
+    min-height: 210px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
 }
+
 .img_text h2 {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .img_text p {
-        text-align: center;
-        padding-top: 5%;
-}
-       
-/*styling contact page*/
-
-.page_settings  {
-        background-color:rgb(248, 248, 232);
-        
-        }
-
-#form_box       {
-                width: 70%;
-                height: 40em;
+    text-align: center;
+    padding-top: 5%;
 }
 
-.contact_form{
-        height:45em;
-        width:100%;
-        display:inline-flex;
-        flex-wrap: wrap;
-        overflow: hidden;
+/*styling contact page form*/
+
+.page_settings {
+    background-color: rgb(248, 248, 232);
 }
 
-.contact_form label, p  {
-        font-size: 110%;
-        padding:0;
-        margin-bottom: 3%;
-        margin-left: 10%;
-        color:brown;
+#form_box {
+    width: 70%;
+    height: 40em;
 }
 
-p       {
-        margin:0;
-        padding:0;
-        margin-top: 3%;
-        text-align:center;
-        }
-
-input {        
-        margin:0 3% 0 0;
-        padding: 3px;
-        padding-left: 10px;
-        height: 26px;
-        width:130px;
-        border-radius: 10px;
-        background-color: rgba(247, 206, 241, 0.7);
-        border: none;
-        }
-
-#form_container   {
-                width: 100%;
-                height:40%;
-                padding-top: 10%;
-                min-width:15em;
-                min-height: 20em;
-                text-align: left;
-                display: flex;
-                flex-grow: 2;
-                flex-direction: column;
-                margin:0;
-                margin-bottom: 3%;
-                }
-
-#inquiry  {
-        width:70%;
-        height: 60px;
-        padding: 3px;
-        padding-left: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: %;
-        border-radius: 10px;   
-        background-color: rgba(247, 206, 241, 0.7);
-        border: none;                                             
-        }
-
-#form_container2{
-        width: 100%;
-        height: 17%;
-        min-width:15em;
-        min-height: 5em;
-        padding-top: 10%;
-        text-align: center;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        position:relative;
-        display: inline-block; 
+.contact_form {
+    height: 45em;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
+.contact_form label,
+p {
+    font-size: 110%;
+    padding: 0;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    color: brown;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+
+input {
+    margin: 0 3% 0 0;
+    padding: 3px;
+    padding-left: 10px;
+    height: 26px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: rgba(247, 206, 241, 0.7);
+    border: none;
+}
+
+#form_container {
+    width: 100%;
+    height: 40%;
+    padding-top: 10%;
+    min-width: 15em;
+    min-height: 20em;
+    text-align: left;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+#inquiry {
+    width: 70%;
+    height: 60px;
+    padding: 3px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgba(247, 206, 241, 0.7);
+    border: none;
+}
+
+#form_container2 {
+    width: 100%;
+    height: 17%;
+    min-width: 15em;
+    min-height: 5em;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+}
 
 #preference_label {
-        margin-bottom: 13%;
+    margin-bottom: 13%;
 }
 
 #form_container2 input {
-        height: 20px;
-        width: 20px;
-        margin-right: 0;
-        align-self: baseline;       
+    height: 20px;
+    width: 20px;
+    margin-right: 0;
+    align-self: baseline;
 }
 
-#sub_button     {
-        width: 100%;
-        height: 8%;
-        text-align: center;
-        margin: 0;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        position: relative;
+#sub_button {
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
 }
 
-#map    {
-        width: 80%;
-        align-self: center;
-        margin-top: 18%;
-        border: 2px inset brown;
-        position: relative;
+#submit {
+    font-size: 1.4em;
+    text-decoration: none;
+    border: 1px;
+    height: 3.5em;
+    border-style: ridge;
+    margin: 0;
+    padding: 0;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(214, 108, 200, 0.2);
+    color: brown;
+    border-radius: 10px;
 }
-
-#embed_map      {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                align-self: center;
-                background-color:rgb(248, 248, 232);
-                }
-
-#submit{
-        font-size: 1.4em;
-        text-decoration: none;
-        border: 1px; 
-        height: 3.5em;
-        border-style:ridge;
-        margin:0;
-        padding:0;
-        padding: 5px 5px 5px 5px;
-        background-color: rgba(214, 108, 200, 0.2);
-        color: brown;
-        border-radius: 10px;
-        }
 
 #submit:hover {
-        font-size: 120%;
-        font-weight: 800;
-        border-bottom: 2px solid brown;
-} 
-
-#map    {
-        width: 80%;
-        align-self: center;
-        margin-top: 18%;
-        border: 2px inset brown;
-        position: relative;
+    font-size: 120%;
+    font-weight: 800;
+    border-bottom: 2px solid brown;
 }
 
-#embed_map      {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                align-self: center;
-                background-color:rgb(248, 248, 232);
-                }
+/* styling working hours div */
 
-                
-.h1     {
-        align-self: center;
-        font-family: "Dancing Script";
-        }
-        
 #w_hours {
-        margin:0;
-        align-self: flex-end;
+    margin: 0;
 }
 
-#w_hours h2, p {
-        padding: 0;
-        margin: 0 auto;
-        width: 80%;
-        height: 10%;
-        font-size: 1em;
-        text-align: right;
-        
-        padding-right: 2%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        
-        }
+#w_hours h2,
+p {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 10%;
+    font-size: 1em;
+    text-align: right;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 
 #w_hours h2 {
-        font-size: 1.5rem;
-        margin-top: 15%;
-        }
+    font-size: 1.5rem;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-/*Styling FAQs page*/
 
-.questions{
-        margin: 0;
-        padding: 0;
-        margin-left: 5%;
-        margin-right: 0;
-        width: 90%;
-        height: 80%;
-        align-self: center;
-        text-align: center;
-        min-height: 70em;
-        color:brown;
-        }
+/* styling map */
+
+#map {
+    width: 80%;
+    align-self: center;
+    margin-top: 18%;
+    border: 2px inset brown;
+    position: relative;
+}
+
+#embed_map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    background-color: rgb(248, 248, 232);
+}
+
+/*styling FAQs page*/
+
+.questions {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 0;
+    width: 90%;
+    height: 80%;
+    align-self: center;
+    text-align: center;
+    min-height: 70em;
+    color: brown;
+}
 
 .questions h1 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        padding-bottom: 15%;
-        }
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15%;
+}
 
 .questions h2 {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                margin-top: 4%;
-                margin-bottom: 2%;
-                font-weight: 140;
-                text-align: center;
-                }
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-weight: 140;
+    text-align: center;
+}
 
 .questions p {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                text-align:center;
-                }
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
 /*Styling thanks message*/
 
-#thx_message{
-        padding: 0;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        height: 80%; 
-        vertical-align: center;
-        align-self: center;
-        min-height: 50em;
-        background-color:rgb(248, 248, 232);
-        color:brown;
-        }
+#thx_message {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+    vertical-align: center;
+    align-self: center;
+    min-height: 50em;
+    background-color: rgb(248, 248, 232);
+    color: brown;
+}
 
-#thx_message h1{
-        padding-top: 20%;
-        padding-bottom: 8%;
-        }
+#thx_message h1 {
+    padding-top: 20%;
+    padding-bottom: 8%;
+}
 
-#thx_message p{
-                padding-top: 1%;
-                padding-bottom: 6%;
-        }
+#thx_message p {
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
 
-#rabbit { 
-        padding:10%;
-        font-size: 4em;
-        
-        }
+#rabbit {
+    padding: 10%;
+    font-size: 4em;
+
+}
 
 /*media settings*/
 
 /*----------------------------------- 650 -----------------------------*/
 
-@media screen and (min-width: 650px)  {
-        #header_section{
-                width: 100%;
-                height: 18em;
-        }
-        #name_pic{
-                width: 100%;
-                height: 14em;
-                padding: 0;
-        }
-        footer {
-                width: 100%;
-                height:8%;
-                margin:0 auto;
-                position: sticky;
-                bottom: 0;
-        }
-        .body_about_us{
-                align-content: center;
-                display: flex;
-        }
-        #about_us    {
-                width: 80%;
-                height: 80em;       
-                flex: 1;
-        }
-        #intro1, #intro2 {
-                font-family: hind;
-                color:brown;
-                text-align: center;
-                width:90%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 2%;
-                }
-        
-        #intro1  {        
-                height: 25%;
-                margin-bottom: 5%;
-        }
-        #intro2{
-                align-content: center;
-                height: 20%;         
-        }                
-        input {
-                width: 200px;
-        }
-        textarea {
-                height: 150px;
-        }
-        #about_us_pic {
-                width: 30%;
-        }
-       
-        #thx_message{
-                padding: 0;
-                margin: 0;
-                width: 100%;
-                height: 50em;
-        }
-        #contact_form {
-                height: auto;
-  
-        #form_container2{
-                height: 22%;
-        }
+@media screen and (min-width: 650px) {
 
-        .questions h1 {
-                padding: 0;
-                margin: 0;
-                margin-top: 3%;
-                margin-bottom: 5%;
-        }
+    /* styling header */
+
+    #header_section {
+        height: 18em;
+    }
+
+    /* #name_pic {
+        width: 100%;
+        height: 14em;
+        padding: 0;
+    }*/
+
+    /* styling footer */
+
+    footer {
+        width: 100%;
+        height: 8%;
+        margin: 0 auto;
+        position: sticky;
+        bottom: 0;
+    }
+
+    /* styling for central part of pages for media 650 */
+
+    /* index page */
+
+    .body_about_us {
+        align-content: center;
+        display: flex;
+    }
+
+    #about_us {
+        width: 80%;
+        height: 80em;
+        flex: 1;
+    }
+
+    #about_us_pic {
+        width: 30%;
+    }
+
+    #intro1,
+    #intro2 {
+        font-family: hind;
+        color: brown;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    }
+
+    #intro1 {
+        height: 25%;
+        margin-bottom: 5%;
+    }
+
+    #intro2 {
+        align-content: center;
+        height: 20%;
+    }
+
+    /* contact form page */
+
+    #contact_form {
+        height: auto;
+    }
+
+    #form_container2 {
+        height: 22%;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    /* thanks message page */
+
+    #thx_message {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 50em;
+    }
+
+    /* faqs page */
+
+    .questions h1 {
+        padding: 0;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
 }
 
 /*----------------------------------- 750 -----------------------------*/
 
-@media screen and (min-width: 750px)  {
+@media screen and (min-width: 750px) {
 
-        #inquiry {
-           
-                height: 260px;
+    /* styling for central part of pages */
+
+    /* contact form page */
+
+    #inquiry {
+        height: 260px;
+    }
+
+    /* thanks message page */
+
+    #thx_message {
+        height: 60em;
+    }
 }
-}
+
 /*----------------------------------- 900 -----------------------------*/
 
-@media screen and (min-width: 900px)  {
-                #header_section{
-                        width: 100%;
-                        height: 18em;
-                }
-                #name_pic{
-                        width: 100%;
-                        height: 14em;
-                        padding: 0;
-                }
-                #menu {
-                height: 6em;    
-                }        
-                footer {
-                        width: 100%;
-                        height:8%;
-                        margin:0 auto;
-                        position: sticky;
-                        bottom: 0;
-                        }
-                #media li {
-                        text-align: center;
-                }
-                .body_about_us {
-                        display: flex;
-                }
-                /*----about_us body content ----*/
-                #about_us    {
-                        width: 80%;
-                        flex: 1;
-                }
-                #intro1, #intro2 {
-                        width:80%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding:5px 5px 5px 5px;
-                        justify-content: center;
-                }
+@media screen and (min-width: 900px) {
 
-                #form_container, #form_container2 {
-                        float:none;
-                }
-                .img_set {
-                        width: 45%;
-                        height:45%;
-                        margin-left: 10%;
-                        }
-                .img_text{
-                        width: 45%;
-                        height:45%;
-                        margin-left: 50%;
-                }
-                #form_box{ 
-                        width: 80%;
-                        align-content: flex-start;
-                }
-                #form_container {
-                        margin: 0 auto;
-                        padding: 0; 
-                        font-size: 120%;
-                        width:100%;
-                        height: 55%;
-                        display: flex;
-                        flex-grow: 1;
-                        flex-direction: column;
-                        text-align: left;                                               
-                }
-                #inquiry {
-                        width:75%;
-                        height: 9em;                                        
-                }
-                #contact_form {
-                        height: 50em;
-                }
+    /* styling general for this media */
 
-                #form_container2{
-                        margin: 0 auto;
-                        padding: 0;  
-                        font-size: 120%;
-                        width: 100%;
-                        height: 18%;
-                        min-width:15em;
-                        min-height: 3em;
-                        padding-top: 10%;
-                        text-align: center;
-                        margin-left: auto;
-                        margin-right: auto;
-                        position:relative;
-                        }
+    /*tion {
+        width: 100%;
+        height: 18em;
+    }*/
 
-                #map    {
-                        height: 20em;
-                        margin-top: 10%;
-                }
-                #thx_message{
-                        padding: 0;
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 80%;
-                        height: 50em;
-        
-                        vertical-align: center;
-                        align-self: center;
-                        min-height: 35em;
-                        background-color:rgb(248, 248, 232);
-                        color:brown;
-                }
-                
-                #thx_message p{
-                        padding-top: 1%;
-                        padding-bottom: 6%;
-                }
-                #rabbit { 
-                        padding:10%;
-                        font-size: 6em;
-                }
-                .questions h1 {
-                        padding: 0;
-                        margin: 0;
-                        margin-top: 3%;
-                        margin-bottom: 5%;
-                }
+    /*#name_pic {
+        width: 100%;
+        height: 14em;
+        padding: 0;
+    }*/
 
-        }
+    #menu {
+        height: 6em;
+    }
+
+    footer {
+        width: 100%;
+        height: 8%;
+        margin: 0 auto;
+        position: sticky;
+        bottom: 0;
+    }
+
+    #media li {
+        text-align: center;
+    }
+
+    /* styling for central part of pages */
+
+    /* about_us page */
+
+    .body_about_us {
+        display: flex;
+    }
+
+    #about_us {
+        width: 80%;
+        flex: 1;
+    }
+
+    #intro1,
+    #intro2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px 5px 5px 5px;
+        justify-content: center;
+    }
+
+    /* gallery page */
+
+    .img_set {
+        width: 45%;
+        height: 45%;
+        margin-left: 10%;
+    }
+
+    .img_text {
+        width: 45%;
+        height: 45%;
+        margin-left: 50%;
+    }
+
+    /* contact_form page */
+
+    #form_container,
+    #form_container2 {
+        float: none;
+    }
+
+    #form_box {
+        width: 80%;
+        align-content: flex-start;
+    }
+
+    #form_container {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 120%;
+        width: 100%;
+        height: 55%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #inquiry {
+        width: 75%;
+        height: 9em;
+    }
+
+    #contact_form {
+        height: 50em;
+    }
+
+    #form_container2 {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 120%;
+        width: 100%;
+        height: 18%;
+        min-width: 15em;
+        min-height: 3em;
+        padding-top: 10%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #map {
+        height: 20em;
+        margin-top: 10%;
+    }
+
+    /* thx_message page */
+
+    #thx_message {
+        padding: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 50em;
+
+        vertical-align: center;
+        align-self: center;
+        min-height: 35em;
+        background-color: rgb(248, 248, 232);
+        color: brown;
+    }
+
+    #thx_message p {
+        padding-top: 1%;
+        padding-bottom: 6%;
+    }
+
+    #rabbit {
+        padding: 10%;
+        font-size: 6em;
+    }
+
+    /* faqs page */
+
+    .questions h1 {
+        padding: 0;
+        margin: 0;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+}
+
 /*--------------------------------------- 1200 ---------------------------------------*/
 
-@media screen and (min-width: 1200px)  {
- 
-                footer {
-                        bottom: 0;
-                        margin:0 auto;
-                        height:8%;
-                        position: sticky;   
-                }
-                #header_section{
-                                width: 100%;
-                                height: 18em;
-                }
-                #name_pic{
-                                width: 100%;
-                                height: 14em;
-                                padding: 0;
-                }
-                #menu {
-                        height: 6em;
-                }
-                #media li      {
-                                text-align: center;
-                }
-                #about_us    {
-                        width: 90%;
-                        font-size: 1.5em;
-                        height: 65em;
-                }
-                #top_button   {
-                        bottom: 10%;
-                        right: 10%;
-                }
+@media screen and (min-width: 1200px) {
 
-                #intro1  {
-                        height: 25%;
-                        width: 80%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        margin-bottom: 5%;
-                }
-                #about_us img   {
-                        width: 30%;
-                        margin-left: 35%;
-                }
-                #intro2{
-                        width: 80%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        margin-bottom: 5%;
-                        align-content: center;
-                        height: 15%;
-                }
-                #form_container, #form_container2, #form_container3 {
-                        float:none;
-                }
-                #form_box{ 
-                        width: 80%;       
-                        align-content: flex-start;
-                        height: 60%;
-                        min-height: 42em;
-                }
-                #form_container {
-                        margin: 0 auto;
-                        padding: 0; 
-                        font-size: 120%;
-                        width:100%;
-                        height: 40%;
-                        display: flex;
-                
-                        flex-grow: 1;
-                        flex-direction: column;
-                        text-align: left;                                               
-                }
-                #inquiry {
-                        width:75%;
-                        height: 10em;                                        
-                }
+    /* styling for central part of pages */
 
-                #form_container2{
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding: 0;  
-                        font-size: 120%;
-                        width:100%;
-                        height: 10%;
-                        text-align: center;
-                        padding-top: 5%;
-                        min-width:15em;
-                        min-height: 5em;
-                        position:relative;
-                }
-                #map    {
-                        height: 25em;
-                        margin-top: 2%;
-                }
-                .h3 {
-                        padding:0;
-                        padding-top: 3%;
-                        padding-bottom: 3%;
-                        font-size: 2rem;
-                }
-                .gallery {
-                        width: 96%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        min-height: 100em;
-                }
-                .gallery_items {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                }
-                .each_item_parent       {
-                        flex: 1;
-                        flex-direction: row;
-                        margin:2% 2% 2% 2%;
-                }
-                .img_set {
-                        width: 220px;
-                        height: 220px;
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                        border-radius: 10px;
-                        display:flex;
-                }
-                .img_set img {
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                }
-                .img_text{
-                        width: 250px;
-                        height:250px;
-                        font-size: 1em;
-                        align-items: center;
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                }
-                
-                #thx_message    {
-                        margin: 0;
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 70%;
-                        height: 60em;
-                }
-               
-                #thx_message p {
-                        margin: 0;
-                        padding: 0;
-                }
+    footer {
+        bottom: 0;
+        margin: 0 auto;
+        height: 8%;
+        position: sticky;
+    }
 
-                .questions {
-                        padding: 0;
-                        margin: 0;
-                        margin-left: 5%;
-                }
-                .questions h1 {
-                        padding: 0;
-                        margin: 0;
-                        margin-top: 3%;
-                }
-                #w_hours h2 {
-                        font-size: 2.5rem;
-                        margin: 0;
-                        font-weight: 400;
-                        }
-                #w_hours p {
-                        font-size: 1.4rem;
-                        padding-top: 1em;
-                        }
-                
-        }
-@media screen and (min-width: 1500px){
+    #top_button {
+        bottom: 10%;
+        right: 10%;
+    }
 
-        #about_us    {
-                width: 90%;
-                font-size: 1.5em;
-                height: 105em;
-        }
-        #intro1  {
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 5%;
-                height: 20%;
-        }
-        #intro2{
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 5%;
-                align-content: center;
-                height: 30%;        
-        }
-        #inquiry {
-                height: 160px;
-        }
-        #form_box {
-                min-height: 60em;
-        }
-        #form_container {
-                min-height: 35em;
-        }
-        #form_container2 {
-                padding-top: 0;
-        }
-        .contact_form {
-                height:65em;
-                min-height: fit-content;
-        }
+    /*#header_section {
+        width: 100%;
+        height: 18em;
+    }*/
+
+    /*#name_pic {
+        width: 100%;
+        height: 14em;
+        padding: 0;
+    }
+
+    #menu {
+        height: 6em;
+    }
+
+    #media li {
+        text-align: center;
+    }
+*/
+
+    /* about_us page */
+
+    #about_us {
+        width: 90%;
+        font-size: 1.5em;
+        height: 65em;
+    }
+
+    #intro1 {
+        height: 25%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    #about_us img {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #intro2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        align-content: center;
+        height: 15%;
+    }
+
+    /* gallery page */
+
+    .gallery {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 100em;
+    }
+
+    .gallery_items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .each_item_parent {
+        flex: 1;
+        flex-direction: row;
+        margin: 2% 2% 2% 2%;
+    }
+
+    .img_set {
+        width: 220px;
+        height: 220px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .img_set img {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img_text {
+        width: 250px;
+        height: 250px;
+        font-size: 1em;
+        align-items: center;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* contact_form page */
+
+    #form_container,
+    #form_container2,
+    #form_container3 {
+        float: none;
+    }
+
+    #form_box {
+        width: 80%;
+        align-content: flex-start;
+        height: 60%;
+        min-height: 42em;
+    }
+
+    #form_container {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 120%;
+        width: 100%;
+        height: 40%;
+        display: flex;
+
+        flex-grow: 1;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #inquiry {
+        width: 75%;
+        height: 14em;
+    }
+
+    #form_container2 {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        font-size: 120%;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        padding-top: 5%;
+        min-width: 15em;
+        min-height: 5em;
+        position: relative;
+    }
+
+    #w_hours h2 {
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    #w_hours p {
+        font-size: 1.4rem;
+        padding-top: 1em;
+    }
+
+    #map {
+        height: 25em;
+        margin-top: 2%;
+    }
+
+    .h3 {
+        padding: 0;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 2rem;
+    }
+
+
+    /* thx_message page */
+
+    #thx_message {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 60em;
+    }
+
+    #thx_message p {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* faqs page */
+
+    .questions {
+        padding: 0;
+        margin: 0;
+        margin-left: 5%;
+    }
+
+    .questions h1 {
+        padding: 0;
+        margin: 0;
+        margin-top: 3%;
+    }
+
 }
-        
-@media screen and (min-width: 2500px){
-        body {
-                width: 70%;
-                max-width: fit-content;
-                margin-left: auto;
-                margin-right: auto;
-        }
-        #top_button   {
-                bottom: 10%;
-                right: 15%;
-        }
-        .contact_form {
-                height: 70em;
-        }
-        #form_container2 label {
-                margin: 0;
-                padding-left: 20px;
-                padding-right: 20px;
-        }
-        #form_box {
-                height: 65em;
-        }
-        #form_container {
-                height: 35em;
-        }
-        #thx_message    {
-                height: 70em;
-        }
-        .questions {
-                min-height: 85em;
-        }       
-        #faqs_title {
-                margin-top: 0;
-        }
+
+@media screen and (min-width: 1500px) {
+
+    /* styling for central part of pages */
+
+    /* index about_us */
+
+    #about_us {
+        width: 90%;
+        font-size: 1.5em;
+        height: 105em;
+    }
+
+    #intro1 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        height: 20%;
+    }
+
+    #intro2 {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        align-content: center;
+        height: 30%;
+    }
+
+    /* contact_form page */
+
+    #inquiry {
+        height: 16em;
+    }
+
+    #form_box {
+        min-height: 60em;
+    }
+
+    #form_container {
+        min-height: 35em;
+    }
+
+    #form_container2 {
+        padding-top: 0;
+    }
+
+    .contact_form {
+        height: 65em;
+        min-height: fit-content;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+
+    /* styling for central part of pages */
+
+    body {
+        width: 80%;
+        max-width: 150em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #top_button {
+        bottom: 10%;
+        right: 15%;
+    }
+
+    /* contact_form page */
+
+    .contact_form {
+        height: 70em;
+    }
+
+    #form_container2 label {
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #form_box {
+        height: 65em;
+    }
+
+    #form_container {
+        height: 35em;
+    }
+
+    /* thx_message page */
+
+    #thx_message {
+        height: 70em;
+    }
+
+    /* faqs page */
+    .questions {
+        min-height: 85em;
+    }
+
+    #faqs_title {
+        margin-top: 0;
+    }
 }
