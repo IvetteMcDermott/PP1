@@ -549,12 +549,6 @@ p {
         height: 18em;
     }
 
-    /* #name_pic {
-        width: 100%;
-        height: 14em;
-        padding: 0;
-    }*/
-
     /* styling footer */
 
     footer {
@@ -666,17 +660,6 @@ p {
 @media screen and (min-width: 900px) {
 
     /* styling general for this media */
-
-    /*tion {
-        width: 100%;
-        height: 18em;
-    }*/
-
-    /*#name_pic {
-        width: 100%;
-        height: 14em;
-        padding: 0;
-    }*/
 
     #menu {
         height: 6em;
@@ -839,26 +822,6 @@ p {
         right: 10%;
     }
 
-    /*#header_section {
-        width: 100%;
-        height: 18em;
-    }*/
-
-    /*#name_pic {
-        width: 100%;
-        height: 14em;
-        padding: 0;
-    }
-
-    #menu {
-        height: 6em;
-    }
-
-    #media li {
-        text-align: center;
-    }
-*/
-
     /* about_us page */
 
     #about_us {
@@ -989,7 +952,7 @@ p {
         margin: 0;
         font-weight: 400;
         margin-left: auto;
-        margin-right: auto;        
+        margin-right: auto;
     }
 
     #w_hours p {
