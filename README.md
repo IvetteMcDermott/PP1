@@ -1,16 +1,13 @@
-![Logo](assets/images/logo.png =150x150) 
-
-
 ![Responsive](assets/images/responsive.jpg) 
 
 # Overview
 
-### This website is targeted at clients who are specificaly looking for home baked good, whether are traditional, customise or for special date products. It introduces Itza and their products to a wider online market.   
+### This website is targeted at clients who are specifically looking for home baked good, whether are traditional, customize or for special date. It introduces Itza and their products to a wider online market.   
 
 
 ## The User
 
-### The user will find in this site an option to cover their necessity of buying a cake or baking good, whenever it is for a birthday, special occasion or everyday treat. 
+### The user will find in this site an option to cover their necessity of buying a cake or baked good, whenever it is for a birthday, special occasion or everyday treat. 
 <br>
 
 
@@ -21,23 +18,22 @@
 
 ## The site
 
-### Itza's Bakeshop is a user-friendly, easily accessible business website, where will be displayed cakes and baked goods that can be purchased, and also provides the option to contact the client for special requests or other inquiries about the business.
+### Itza's Bakeshop is a user-friendly, easily accessible business website, where it will be displayed cakes and baked goods that can be purchased, and also provides the option to contact the client for special requests or other inquiries about the business.
 <br>
 <br>
 
 # UX
 
-### The client for this business is a person that is in looking to purchase a cake or baked goods for special occasion or daily treat.
+### The typical client for this business is a person that is in looking for to purchase a cake or baked good for special occasion or daily treat.
 <br>
 <br>
 
 # Client stories
 
-###	As a user I want to have an easily navigated site.
-###	As a user I want to find a display of options to my need of buy a baked good.
-### As a user looking for a customise cake I want to find way to contact with them with a fast response.
-###	As a user I want to find bit of who is behind and how serious they are in the business.
-
+###	As a user, I want to have an easily navigated site.
+###	As a user, I want to find a display that showcase their capability.
+### As a user looking for a customize cake, I want to find a way to get in contact with them with a fast response.
+###	As a user, I want to find information of how professional they are and how serious they take their clients.
 <br>
 <br>
 
@@ -107,6 +103,7 @@
 
 ### 1280*1024 / 1600*900 / 2560*1440 / 3440*1440
 
+### The site had been visualize in Chrome, Firefox and 
 
 # Validation W3C
 
@@ -129,6 +126,11 @@
 [Repo](https://github.com/IvetteMcDermott/PP1.git)
 <br>
 <br>
+
+
+# Lighthouse
+
+
 
 # Credits
 
