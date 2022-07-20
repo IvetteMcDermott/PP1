@@ -82,8 +82,33 @@
 # Tested
 
 ### The HTML code as the CSS had been tested in W3C Validators.
+<br>
 
-### Results.
+## CSS
+
+### Report has come back clear, no errors or warnings to show.
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+    
+
+## HTML
+
+### Reports for the pages have come back clear, no errors or warnings to show.
+
+
 <br>
 <br>
 
@@ -93,29 +118,17 @@
 
 ### Mobile :
 
-### 320*640 / 360*640 / 414*896 / 360*740
+### 320x640 / 360x640 / 414x896 / 360x740
 
 ### Tablet :
 
-### 768*1024 / 1280*800 / 962*601 / 810*1280
+### 768x1024 / 1280x800 / 962x601 / 810x1280
 
 ### Monitor :
 
-### 1280*1024 / 1600*900 / 2560*1440 / 3440*1440
+### 1280x1024 / 1600x900 / 2560x1440 / 3440x1440
 
 ### The site had been visualize in Chrome, Firefox and 
-
-# Validation W3C
-
-## CSS
-
-### Report has come back clear, no errors or warnings to show.
-
-[CSS] (http://jigsaw.w3.org/css-validator/validator$link) 
-
-## HTML
-
-### Reports for the pages have come back clear, no errors or warnings to show.
 
 
 # Deployment
