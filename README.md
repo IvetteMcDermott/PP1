@@ -1,9 +1,11 @@
-[<img src="assets/images/32506885_656220244769850_2879262800117497856_n.png" width="150"/>](assets/images/32506885_656220244769850_2879262800117497856_n.png) 
+[<img src="assets/images/logo.png" width="150"/>](assets/images/logo.png) 
 
 
-[<img src="]
-# The How
+[<img src="assets/images/responsive.jpg" width="400"/>] (assets/css/images/responsive.jpg)
 
+# Overview
+
+### This website is targeted at clients who are specificaly looking for home baked good, whether are traditional, customise or for special date products. It introduces Itza and their products to a wider online market.   
 
 
 ## The User
@@ -31,6 +33,10 @@
 
 # Client stories
 
+###	As a user I want to have an easily navigated site.
+###	As a user I want to find a display of options to my need of buy a baked good.
+### As a user looking for a customise cake I want to find way to contact with them with a fast response.
+###	As a user I want to find bit of who is behind and how serious they are in the business.
 
 <br>
 <br>
