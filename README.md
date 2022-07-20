@@ -1,4 +1,4 @@
-![Logo](assets/images/logo.png) 
+![Logo](assets/images/logo.png =150x150) 
 
 
 ![Responsive](assets/images/responsive.jpg) 
@@ -68,12 +68,20 @@
 <br>
 <br>
 
+
 # Technology Used
 
 ### For this website had been use HTML and CSS languages.
 ### Also, had use fontawesome and google fonts for the font and icons.
 <br>
 <br>
+
+
+# Funtionality 
+
+### The actions expected from the nav and interactive links are working as planned.
+### The display of the pages is showing as anticipated.
+
 
 # Tested
 
@@ -83,15 +91,48 @@
 <br>
 <br>
 
+# Responsiveness
+
+### The site had been tested in various screen sizes as listed below.
+
+### Mobile :
+
+### 320*640 / 360*640 / 414*896 / 360*740
+
+### Tablet :
+
+### 768*1024 / 1280*800 / 962*601 / 810*1280
+
+### Monitor :
+
+### 1280*1024 / 1600*900 / 2560*1440 / 3440*1440
+
+
+# Validation W3C
+
+## CSS
+
+### Report has come back clear, no errors or warnings to show.
+
+[CSS] (http://jigsaw.w3.org/css-validator/validator$link) 
+
+## HTML
+
+### Reports for the pages have come back clear, no errors or warnings to show.
+
+
 # Deployment
 
 ### The page had been deployed using GitHub pages, from the main branch. <br>
+
+[Live Site](https://ivettemcdermott.github.io/PP1/)
+[Repo](https://github.com/IvetteMcDermott/PP1.git)
 <br>
 <br>
 
 # Credits
 
-### While no code had been copied from other sources for the building of this site I had relay in different sources and forums, as part of the research for develope the website as follow :<br>
+### While no code had been copied from other sources for the building of this site I had relay in different sources and forums, as part of the research for develope of it as follow :<br>
 <br> 
 
 ### [Davidwells.io](https://davidwells.io/) <br>
@@ -104,7 +145,7 @@
 ### [Balsamiq.com](https://balsamiq.com/) <br>
 <br>
 
-### Slack PP1 channel, where community had gave help after review the site.
+### Also, had used recive feedbacks and support from LMS tutors and my mentor, and PP1 channel in slack.
 
 
 <br>
