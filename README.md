@@ -20,7 +20,7 @@
 <br>
 <br>
 
-## The site
+## The Site
 
 ### Itza's Bakeshop is a user-friendly, easily accessible business website, where will be displayed cakes and baked goods that can be purchased, and also provides the option to contact the client for special requests or other inquiries about the business.
 <br>
@@ -32,7 +32,7 @@
 <br>
 <br>
 
-# Client stories
+# Client Stories
 
 -	As a user, I want to have an easily navigated site.
 -	As a user, I want to find a display that showcases their capability.
@@ -57,7 +57,6 @@
 ### [Mobile - Contact Us](https://share.balsamiq.com/c/gTeLbZQaUnR6VAaVCuhBVp.png) <br>
 
 <br>
-<br>
 
 # Features
 
@@ -68,7 +67,7 @@
 <br>
 <br>
 
-# Features left to implement
+# Features Left to Implement
 
 ### In the future, is expected to add a slide of images with screenshots of clients reviews.
 <br>
@@ -171,13 +170,32 @@
 
 # Lighthouse
 
+[Desktop - About Us](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443606/PP1/lighthouse%20ss%20II/ss_lighthouse_desktop_index_cw82kc.jpg)
+
+[Desktop - Our Gallery](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443606/PP1/lighthouse%20ss%20II/ss_lighthouse_desktop_gallery_b4n9cq.jpg)
+
+[Desktop - Contact Us](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443605/PP1/lighthouse%20ss%20II/ss_lighthouse_desktop_form_yxo9ji.jpg)
+
+[Desktop - Faqs](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443605/PP1/lighthouse%20ss%20II/ss_lighthouse_desktop_faqs_fnyr3y.jpg)
+
+[Desktop - Thanks Message](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443606/PP1/lighthouse%20ss%20II/ss_lighthouse_desktop_thx_h3e7vv.jpg)
+
+[Mobile -About Us](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443608/PP1/lighthouse%20ss%20II/ss_lighthouse_mobile_index_oosjzv.jpg)
+
+[Mobile - Our Gallery](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443607/PP1/lighthouse%20ss%20II/ss_lighthouse_mobile_gallery_kpepq3.jpg)
+
+[Mobile - Contact Us](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443607/PP1/lighthouse%20ss%20II/ss_lighthouse_mobile_form_xntsgb.jpg)
+
+[Mobile - Faqs](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443606/PP1/lighthouse%20ss%20II/ss_lighthouse_mobile_faqs_r843t4.jpg)
+
+[Mobile - Thanks Message](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658443608/PP1/lighthouse%20ss%20II/ss_lighthouse_mobile_thx_ohg6ev.jpg)
 
 <br>
 <br>
 
 # Credits
 
-### While no code had been copied from other sources for the building of this site I had relay in different sources and forums, as part of the research for develope of it as follow :<br>
+### While no code had been copied from other sources for the building of this site, I had relay in different sources and forums, as part of the research for develope of it as follow :<br>
 <br> 
 
 ### [Davidwells.io](https://davidwells.io/) <br>
@@ -190,7 +208,7 @@
 ### [Balsamiq.com](https://balsamiq.com/) <br>
 <br>
 
-### All the media used in this site had been provided by the author, Itzas owner, but the preparation image that had been taken from Pexel.com, artist Nicole Michalou.
+### All the media used in this site had been provided by the author, Itzas owner, but the hero image that had been taken from Pexel.com.
 
 ### Also, had recived and used feedbacks and support from LMS tutors and my mentor, and from my cohorts in "Slack" as well. 
 
