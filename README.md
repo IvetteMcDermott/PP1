@@ -182,6 +182,8 @@
 ### [Balsamiq.com](https://balsamiq.com/) <br>
 <br>
 
+### All the media used in this site had been provided by the author, Itzas owner, but the preparation image that had been taken from Pexel.com, artist Nicole Michalou.
+
 ### Also, had recived and used feedbacks and support from LMS tutors and my mentor, and from my cohorts in "Slack" as well. 
 
 <br>
