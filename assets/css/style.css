@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Hind&display=swap");
 
 /* General settings - mobile first */
 
@@ -223,12 +224,21 @@ footer {
     position: relative;
 }
 
-#about_us img {
-    padding: 10px 10px;
-    border-radius: 3%;
-    width: 50%;
+#about_us_img_cont {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .8em;
+    margin-bottom: .8em;
     position: relative;
-    margin-left: 25%;
+}
+
+#about_us img {
+    width: 18em;
+    height: 7em;
+    position: relative;
+    object-fit: scale-down;
+    display: block;
 }
 
 /*styling gallery*/
@@ -608,7 +618,7 @@ p {
     }
 
     #intro1 {
-        height: 25%;
+        height: 22%;
         margin-bottom: 5%;
     }
 
@@ -704,6 +714,11 @@ p {
         flex: 1;
     }
 
+    #about_us img {
+        width: 22em;
+        height: 18em;
+    }
+
     #intro1,
     #intro2 {
         width: 80%;
@@ -711,6 +726,10 @@ p {
         margin-right: auto;
         padding: 5px 5px 5px 5px;
         justify-content: center;
+    }
+
+    #intro1 {
+        margin-bottom: 0;
     }
 
     /* gallery page */
@@ -852,16 +871,16 @@ p {
     }
 
     #intro1 {
-        height: 25%;
+        height: 23%;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5%;
+        margin-bottom: 8%;
     }
 
     #about_us img {
-        width: 30%;
-        margin-left: 35%;
+        width: 35em;
+        height: 16em;
     }
 
     #intro2 {
@@ -1058,8 +1077,8 @@ p {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+        height: 15%;
         margin-bottom: 5%;
-        height: 20%;
     }
 
     #intro2 {
@@ -1126,6 +1145,12 @@ p {
         right: 15%;
     }
 
+    /* about_us page */
+
+    #intro1 {
+        margin-bottom: 0;
+    }
+
     /* contact_form page */
 
     .contact_form {
@@ -1172,4 +1197,3 @@ p {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Hind&display=swap');

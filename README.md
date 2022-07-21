@@ -1,4 +1,4 @@
-![Responsive](assets/images/responsive.jpg) 
+![Responsive](https://res.cloudinary.com/dwjq6izv5/image/upload/v1658428435/PP1/responsive_zusm9u.jpg) 
 <br>
 <br>
 
@@ -34,10 +34,10 @@
 
 # Client stories
 
-###	As a user, I want to have an easily navigated site.
-###	As a user, I want to find a display that showcases their capability.
-### As a user looking for a customized cake, I want to find a way to get in contact with them with a fast response.
-###	As a user, I want to find information of how professional they are and how seriously they take their clients.
+-	As a user, I want to have an easily navigated site.
+-	As a user, I want to find a display that showcases their capability.
+-   As a user looking for a customized cake, I want to find a way to get in contact with them with a fast response.
+-	As a user, I want to find information of how professional they are and how seriously they take their clients.
 <br>
 <br>
 
@@ -88,6 +88,16 @@
 ### The actions expected from the nav and interactive links are working as planned.
 ### The display of the pages is showing as anticipated.
 <br>
+
+|   Test Label                 |  Test Action        | Expected Outcome                         |  Test Outcome  |
+|  :---                        |    :----            |        :---                              |         ---:   | 
+| Header Nav                   | Hover an option     | Option font gets bold and underline      | Pass           |
+| Header Nav                   | Click an option     | Displays the choosen page                | Pass           |
+| Top Button                   | click on it         | Return the focus to the header           | Pass           |
+| Footer Nav                   | Hover an option     | Option underline                         | Pass           |
+| Footer Nav                   | Click an option     | Directs to the choosen page in a new tab | Pass           |
+| Send button in Contact Page  | Click on button     | Display a new page with a Thanks message | Pass           |
+
 <br>
 
 # Tested
@@ -118,9 +128,7 @@
 
 ## HTML
 
-### Reports for the pages have come back clear, no errors or warnings to show.
-
-
+### Reports for the pages have come back clear, no errors or warnings to show. 
 <br>
 <br>
 
