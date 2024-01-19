@@ -91,7 +91,11 @@ body {
     transition: transform .5s;
 }
 
-/*stiling top_button*/
+a.active-page {
+    font-weight: 600;
+    font-style: italic;
+}
+/*styling top_button*/
 
 #top_button {
     text-decoration: none;
